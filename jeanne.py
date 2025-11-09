@@ -5,7 +5,6 @@ import os
 # -------------------------------
 # 🔑 بارگذاری مقادیر از فایل .env
 # -------------------------------
-load_dotenv()  # این خط فایل .env را میخواند
 
 DISCORD_TOKEN = os.getenv("DISCORD_TOKEN")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
