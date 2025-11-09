@@ -1,8 +1,7 @@
-import os
 import discord
+from discord.ext import commands
 from openai import OpenAI
-from dotenv import load_dotenv
-
+import os
 # -------------------------------
 # 🔑 بارگذاری مقادیر از فایل .env
 # -------------------------------
